@@ -7,9 +7,52 @@
     <title>Figuras geométicas</title>
 </head>
 <body>
-    <h1>
-        Figuras geometricas
-    </h1>
+    <header>
+        <h1>
+            Figuras geometricas
+        </h1>
+        <p>Primer taller de JavaScript</p>
+    </header>
+    <section>
+        <h2>Area y perimetro de un cuadrado</h2>
+        <form action="">
+            <label for="inputCuadrado">
+                Escribe cuanto mide un lado del cuadrado
+            </label>
+                <input id="inputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()" >Calcular el perimetro</button>
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
+        </form>
+    </section>
+    <section>
+        <h2>Area y perimetro de un triangulo</h2>
+        <form action="">
+            <label for="inputTriangulo">
+                Lado 1
+            </label>
+                <input id="inputTriangulo" type="number">
+            <label for="inputTriangulo">
+                Lado 2
+            </label>
+                <input id="inputTriangulo" type="number">
+            <label for="inputTriangulo">
+                Base
+            </label>
+                <input id="inputTriangulo" type="number">
+            <button type="button" onclick="calcularPerimetroTriangulo()" >Calcular el perimetro</button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular el area</button>
+        </form>
+    </section>
+    <section>
+        <h2>Area y perimetro de un circulo</h2>
+        <form action="">
+            <label for="inputCirculo">
+                Escribe cuanto mide el radio de tu circulo
+            </label> <input id="inputCirculo" type="number">
+            <button type="button" onclick="calcularPerimetroCirculo()" >Calcular el perimetro</button>
+            <button type="button" onclick="calcularAreaCirculo()">Calcular el area</button>
+        </form>
+    </section>
 
     <script src="./figuras.js"></script>
 </body>
