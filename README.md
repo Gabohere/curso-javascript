@@ -7,4 +7,11 @@
 -Definir las formas
 -Implementar las fórmulas en js
 -Crear funciones
--Integrar jv con HTML
+-Integrar js con HTML
+
+## Porsentaje y descuentos
+
+-Definir las formas
+-Implementar las fórmulas en js
+-Crear funciones par variar los precios
+-Integrar js con HTML
