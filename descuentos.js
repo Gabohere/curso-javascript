@@ -1,5 +1,3 @@
-const precioOriginal = 260;
-const descuento = 18;
 const coupons = [
     {
         name: "GABO",
@@ -36,7 +34,7 @@ function onClickButtonPriceDiscount() {
     const userCoupon = coupons.find(isCouponValueValid);
 
     if (!userCoupon) {
-        alert("El cupón " + couponValue + " no es válido");
+        priceResult.innerText = "El cupón " + couponValue + " no es válido";
     } else {
         const descuento = userCoupon.discount;
         const precioConDescuento = calcularPrecioConDescuento(priceValue, descuento);
