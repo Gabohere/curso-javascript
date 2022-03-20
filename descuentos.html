@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Descuentos</title>
 </head>
 <body>
     <header>
-        <h1>
-            Porcentaje y descuentos
-        </h1>
+        <img src="https://souldoutt.com/wp-content/uploads/2022/02/logo.svg" alt="Logo batatabit">
+        <div class="title-h1">
+            <h1>
+                Descuentos
+            </h1>
+        </div>
     </header>
-    <section>
-        <h2>Calcular el precio a pagar por los productos</h2>
-        <form action="">
-            <label for="inputPrice">Escribe le precio de tu producto:</label>
-            <input id="inputPrice" type="number">
-            <label for="inputDiscount">Escribe el descuento de tu producto</label>
-            <input id="inputDiscount" type="number">
-            <button type="button" onclick="onClickButtonPriceDiscount()">
-                Calcular el precio con descuento
+    <main class="container-discount">
+        <h2>Calcular el precio de tus batatabits</h2>
+        <form class="form-one" action="">
+            <label for="inputPrice">Escribe le precio</label>
+            <input id="inputPrice" type="number" placeholder="Precio">
+            <label for="inputDiscount">Codigo de descuento</label>
+            <input id="inputCoupon" type="text" placeholder="CODIGO DE DESCUENTO">
+            <button class="button-form-discount" type="button" onclick="onClickButtonPriceDiscount()">
+                Calcular
             </button>
+            <p id="priceResult"></p>
         </form>
-    </section>
+    </main>
     <script src="./descuentos.js"></script>
 </body>
 </html>
