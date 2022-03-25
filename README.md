@@ -15,3 +15,9 @@
 -Implementar las fórmulas en js
 -Crear funciones par variar los precios
 -Integrar js con HTML
+
+## Promedio mediana y moda
+
+-Definir las formas
+-Implementar las fórmulas en js
+-Crear funciones
